@@ -14,9 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Dice Roller',
-      theme: ThemeData(
-        appBarTheme: AppBarTheme(color: Colors.blue),
-      ),
+      theme: ThemeData(),
       home: DiceRollPage(),
     );
   }
